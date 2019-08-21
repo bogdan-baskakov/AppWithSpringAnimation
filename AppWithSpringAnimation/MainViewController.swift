@@ -21,27 +21,27 @@ class MainViewController: UIViewController {
         
         switch sender.tag {
         case 0:
-            setAnimation(sender, sender.tag)
+            animationSetup(sender, sender.tag)
             startAnimation.setTitle(animations[1],
                                     for: .normal)
             sender.tag += 1
         case 1:
-            setAnimation(sender, sender.tag)
+            animationSetup(sender, sender.tag)
             startAnimation.setTitle(animations[2],
                                     for: .normal)
             sender.tag += 1
         case 2:
-            setAnimation(sender, sender.tag)
+            animationSetup(sender, sender.tag)
             startAnimation.setTitle(animations[3],
                                     for: .normal)
             sender.tag += 1
         case 3:
-            setAnimation(sender, sender.tag)
+            animationSetup(sender, sender.tag)
             startAnimation.setTitle(animations[4],
                                     for: .normal)
             sender.tag += 1
         case 4:
-            setAnimation(sender, sender.tag)
+            animationSetup(sender, sender.tag)
             startAnimation.setTitle(animations[0],
                                     for: .normal)
             sender.tag = 0

@@ -10,7 +10,7 @@ import Spring
 
 extension MainViewController {
     
-    func setAnimation(_ sender: SpringButton, _ tag: Int) {
+    func animationSetup(_ sender: SpringButton, _ tag: Int) {
         
         var force = animatedView.force
         var duration = animatedView.duration
